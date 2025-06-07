@@ -1,89 +1,42 @@
+﻿
 {
-  "name": "cash-craft-frontend",
+  "name": "cash-craft-frontend-main",
+  "version": "0.1.0",
   "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint . --ext js,jsx,ts,tsx --fix"
-  },
   "dependencies": {
-    "axios": "^1.6.7",
-    "chart.js": "^4.4.1",
-    "clsx": "^2.1.0",
-    "jwt-decode": "^4.0.0",
-    "lucide-react": "^0.344.0",
-    "react": "^18.3.1",
-    "react-chartjs-2": "^5.2.0",
-    "react-dom": "^18.3.1",
-    "react-hook-form": "^7.49.3",
-    "react-hot-toast": "^2.4.1",
-    "react-router-dom": "^6.22.3",
-    "tailwind-merge": "^2.2.1"
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.0",
+    "react-scripts": "^0.0.0",
+    "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "@eslint/js": "^9.9.1",
-    "@types/react": "^18.3.5",
-    "@types/react-dom": "^18.3.0",
-    "@typescript-eslint/eslint-plugin": "^8.3.0",
-    "@typescript-eslint/parser": "^8.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.18",
-    "eslint": "^9.9.1",
-    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-    "eslint-plugin-react-refresh": "^0.4.11",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.5.3",
-    "vite": "^6.3.5"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
-      "eslint:recommended",
-      "plugin:react/recommended",
-      "plugin:react-hooks/recommended",
-      "plugin:react-refresh/recommended",
-      "plugin:@typescript-eslint/recommended"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-      "ecmaVersion": 2020,
-      "sourceType": "module",
-      "ecmaFeatures": {
-        "jsx": true
-      }
-    },
-    "settings": {
-      "react": {
-        "version": "detect"
-      }
-    },
-    "rules": {
-      "react/react-in-jsx-scope": "off",
-      "@typescript-eslint/no-unused-vars": "warn"
-    }
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not op_mini all"
-  ],
-  "postcss": {
-    "plugins": {
-      "tailwindcss": {},
-      "autoprefixer": {}
-    }
-  },
-  "tailwindcss": {
-    "content": [
-      "./src/**/*.{js,jsx,ts,tsx}",
-      "./public/index.html"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ],
-    "theme": {
-      "extend": {}
-    },
-    "plugins": []
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

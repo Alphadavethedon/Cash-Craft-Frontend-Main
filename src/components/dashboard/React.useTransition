@@ -1,0 +1,12 @@
+<BrowserRouter
+  future={{
+    v7_startTransition: true,
+  }}
+/>
+
+// or
+<RouterProvider
+  future={{
+    v7_startTransition: true,
+  }}
+/>

@@ -1,9 +1,9 @@
+import { AlertCircle, Calendar, CheckCircle } from 'lucide-react';
 import React from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '../ui/Card';
-import { Badge } from '../ui/Badge';
+import { formatCurrency } from '../../lib/utils';
 import { Loan } from '../../types';
-import { formatCurrency, calculateLoanStatus } from '../../lib/utils';
-import { Calendar, AlertCircle, CheckCircle } from 'lucide-react';
+import { Badge } from '../ui/Badge';
+import { Card, CardContent, CardHeader, CardTitle } from '../ui/Card';
 
 interface LoanSummaryProps {
   loan: Loan;
