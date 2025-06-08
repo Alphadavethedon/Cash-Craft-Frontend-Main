@@ -3,6 +3,7 @@
 
 **A modern digital lending platform built for the Kenyan market.**  
 Fast. Secure. AI-powered (coming soon).
+https://cashcraftapp.netlify.app
 
 ![React](https://img.shields.io/badge/Frontend-React-blue?style=flat-square) ![Tailwind](https://img.shields.io/badge/UI-TailwindCSS-38bdf8?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue?style=flat-square) ![Status](https://img.shields.io/badge/Status-Under%20Development-orange?style=flat-square)
 
